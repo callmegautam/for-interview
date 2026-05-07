@@ -69,15 +69,4 @@ Example working credentials from DummyJSON docs:
 ## Completed vs Pending
 
 - Completed: all required parts in the assessment (auth, protected dashboard routes, users/products lists and detail pages, pagination/search/filter, Zustand stores, caching, responsive MUI UI, memo/useCallback/useMemo usage).
-- Pending: GitHub repository creation and push (run the commands below with your GitHub username/repo).
-
-## Create Public GitHub Repo
-
-```bash
-git init
-git add .
-git commit -m "Build assessment app with Next.js, MUI, NextAuth, and Zustand"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
 ```
